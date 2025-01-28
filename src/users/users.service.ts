@@ -54,6 +54,12 @@ export class UsersService {
             "email": "pikachu@email.com",
             "role": "ADMIN"
         },
+        {
+            "id": 9,
+            "name": "Stubby",
+            "email": "stubby@email.com",
+            "role": "INTERN"
+        }
     ]
 
     findAll(role?: 'INTERN' | 'ADMIN' | 'ENGINEER') {
