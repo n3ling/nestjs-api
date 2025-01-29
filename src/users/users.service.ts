@@ -66,6 +66,7 @@ export class UsersService {
             "email": "sam@email.com",
             "role": "INTERN"
         },
+        // comment for change
     ]
 
     findAll(role?: 'INTERN' | 'ADMIN' | 'ENGINEER') {
