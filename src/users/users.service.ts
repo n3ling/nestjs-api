@@ -67,6 +67,7 @@ export class UsersService {
             "role": "INTERN"
         },
         // comment for change again
+        // aws lambda test comment
     ]
 
     findAll(role?: 'INTERN' | 'ADMIN' | 'ENGINEER') {
