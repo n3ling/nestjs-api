@@ -67,6 +67,7 @@ export class UsersService {
             "role": "INTERN"
         },
         // this comment is here to test for creating a new page in notion instead of updating a table
+        // testing when pr is closed without merging
     ]
 
     findAll(role?: 'INTERN' | 'ADMIN' | 'ENGINEER') {
