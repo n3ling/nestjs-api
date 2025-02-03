@@ -66,8 +66,7 @@ export class UsersService {
             "email": "sam@email.com",
             "role": "INTERN"
         },
-        // comment for change again
-        // aws lambda test comment
+        // this comment is here to test for creating a new page in notion instead of updating a table
     ]
 
     findAll(role?: 'INTERN' | 'ADMIN' | 'ENGINEER') {
